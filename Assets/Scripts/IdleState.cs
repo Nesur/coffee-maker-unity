@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// POLYMORPHISM
 public class IdleState : ICoffeeMachineState
 {
     public void EnterState(CoffeeMachineManager coffeeMachineManager)

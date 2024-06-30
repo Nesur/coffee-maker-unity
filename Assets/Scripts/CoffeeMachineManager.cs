@@ -31,10 +31,10 @@ public class CoffeeMachineManager : MonoBehaviour
 
 
 
-
+    // ENCAPSULATION
     private CoffeeWaterAmount m_WaterAmount = CoffeeWaterAmount.SMALL;
     public CoffeeWaterAmount waterAmount { get { return m_WaterAmount; } }
-    
+    // ENCAPSULATION
     private GameObject m_SelectedCoffee = null;
     public GameObject selectedCoffee { get { return m_SelectedCoffee; } private set { m_SelectedCoffee = value; } }
 

@@ -5,8 +5,10 @@ using UnityEngine;
 public abstract class Coffee : MonoBehaviour
 {
     protected float waterAmount;
+    // ENCAPSULATION
     public bool isBrewed { get; private set; }  = false;
     public bool isBrewing { get; set; }  = false;
+    // INHERITANCE
     public virtual void Brew()
     {
         float waterLimit = waterAmount - 0.2f;
@@ -20,6 +22,7 @@ public abstract class Coffee : MonoBehaviour
         }
 
     }
+    // ABSTRACTION
     public abstract string GetName();
 
     public void SetWaterAmount(float waterAmount)
